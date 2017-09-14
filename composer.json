@@ -1,0 +1,9 @@
+{
+    "require": {
+        "silex/silex": "~2.0",
+        "sinergi/browser-detector": "^6.1",
+        "jasongrimes/paginator": "~1.0",
+        "google/recaptcha": "~1.1",
+        "doctrine/dbal": "~2.2"
+    }
+}
