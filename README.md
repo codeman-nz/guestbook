@@ -1,15 +1,15 @@
 Add this to your httpd-vhosts.conf file<br/>
-<VirtualHost *:80> <br />
+&lt;VirtualHost *:80&gt; <br />
     ServerName seannolansguestbook.com <br />
     DocumentRoot "C:/xampp/htdocs/guestbook" <br />
     SetEnv APPLICATION_ENV "development" <br />
-    <Directory "C:/xampp/htdocs/guestbook"> <br />
+    &lt;Directory "C:/xampp/htdocs/guestbook"&gt; <br />
         DirectoryIndex index.html <br />
         AllowOverride All <br />
         Order allow,deny <br />
         Allow from all <br />
-    </Directory> <br />
-</VirtualHost> <br />
+    &lt;/Directory&gt; <br />
+&lt;/VirtualHost&gt; <br />
  <br /> <br />
 where DocumentRoot is where the project has been downloaded to. <br /> <br />
 
