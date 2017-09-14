@@ -11,7 +11,7 @@ Add this to your httpd-vhosts.conf file<br/>
     &lt;/Directory&gt; <br />
 &lt;/VirtualHost&gt; <br />
  <br /> <br />
-where DocumentRoot is where the project has been downloaded to. <br /> <br />
+where DocumentRoot and Directory are where the project has been downloaded to. <br /> <br />
 
 Also add this to your hosts file <br />
 127.0.0.1 seannolansguestbook.com
