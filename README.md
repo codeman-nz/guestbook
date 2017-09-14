@@ -16,4 +16,4 @@ where DocumentRoot and Directory are where the project has been downloaded to. <
 Also add this to your hosts file <br />
 127.0.0.1 seannolansguestbook.com
 
-Create the database using the entries.sql file.  Also create a user called guestbook with the password guestbook.
+Create the database called guestbook and then create the table using the entries.sql file.  Also create a user called guestbook with the password guestbook.
