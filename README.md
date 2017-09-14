@@ -1,4 +1,4 @@
-Add this to your httpd-vhosts.conf file
+Add this to your httpd-vhosts.conf file<br/>
 <VirtualHost *:80> <br />
     ServerName seannolansguestbook.com <br />
     DocumentRoot "C:/xampp/htdocs/guestbook" <br />
